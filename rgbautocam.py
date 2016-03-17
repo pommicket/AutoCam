@@ -74,7 +74,7 @@ if rec:
 
 
 while True:
-    t += 9.1
+    t += 0.1
     ret, fr = cap.read()
     b, g, r = cv2.split(fr)
     r = r.astype(float)
